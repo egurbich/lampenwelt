@@ -1,0 +1,8 @@
+<?php $collection = $this->getOrdersList(); ?>
+<?php foreach($collection as $item) : ?>
+    <p>
+        <span><?= $item->getOrderId(); ?></span>
+        <span><?= $item->getCustomerEmail(); ?></span>
+        <span><?= $item->getReturnCode(); ?></span>
+    </p>
+<?php endforeach; ?>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <lampenwelt>
+            <general>
+                <enabled>0</enabled>
+                <api_url>https://api.test.com/</api_url>
+                <api_login></api_login>
+                <api_password></api_password>
+            </general>
+        </lampenwelt>
+    </default>
+</config>
